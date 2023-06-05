@@ -46,9 +46,9 @@ std::string gcode_extrusion_role_to_string(GCodeExtrusionRole role)
         case GCodeExtrusionRole::GapFill                      : return L("Gap fill");
         case GCodeExtrusionRole::Skirt                        : return L("Skirt/Brim");
         case GCodeExtrusionRole::SupportMaterial              : return L("Support material");
-        case GCodeExtrusionRole::SupportMaterialInterface     : return L("Support material interface 'Hello from Antonio'");
+        case GCodeExtrusionRole::SupportMaterialInterface     : return L("Support material interface");
         case GCodeExtrusionRole::WipeTower                    : return L("Wipe tower");
-        case GCodeExtrusionRole::Custom                       : return L("Custom");
+        case GCodeExtrusionRole::Custom                       : return L("Custom 'Hello from Antonio'");
         default                             : assert(false);
     }
     return {};
